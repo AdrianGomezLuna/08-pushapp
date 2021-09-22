@@ -9,6 +9,12 @@
 <ion-content>
     <ion-list>
         <ion-list-header>
+            <ion-label>UserID</ion-label>
+        </ion-list-header>
+        <ion-item>
+            <ion-label> {{ pushService.userID }} </ion-label>
+        </ion-item>
+        <ion-list-header>
             <ion-label>Mensajes Push</ion-label>
         </ion-list-header>
         <ion-item *ngFor="let push of mensajes">
