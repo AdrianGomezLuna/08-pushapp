@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.pushapp",
+	"appName": "pushapp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
